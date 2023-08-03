@@ -2,9 +2,9 @@ This is a Chrome Extenstion for YC Startup School Cofounder Match platfrom
 It helps to receive summary for each potential cofoinder profile and get througn this process faster 
 
 ## 
-## Usage
+## Simple usage
 
-- Download ready to use extension
+- Download ready to use extension from releases
 - Install to your Chrome browser locally
 - Go to your profile page on SUS and enter OpenAI API keys
 - Go to matchmaking platform, wait for 20 second and receive summary 
