@@ -29,7 +29,9 @@ yarn-error.log*
 .env*
 
 out/
-build/
+build/*
+!build/chrome-mv3-prod.zip
+
 dist/
 
 # plasmo - https://www.plasmo.com
