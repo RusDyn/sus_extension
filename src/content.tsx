@@ -145,7 +145,7 @@ const addButtonsToSUS = async () => {
     });
 
     const json = JSON.parse(result);
-    const { skills, background, request, match, value, message } = json;
+    const { skills, background, match, value, message } = json;
 
     const toBulletItem = (label, items) => {
         return `<div><b>${label}</b><br />
@@ -166,7 +166,6 @@ const addButtonsToSUS = async () => {
         <h1>Score: ${value}/100</h1>
         ${toDivItem("Skills", skills)}
         ${toBulletItem("Background", background)}
-        ${toBulletItem("Looking for:", request)}
         ${toBulletItem("Match", match)}
         
     </div > `

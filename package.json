@@ -1,7 +1,7 @@
 {
   "name": "sus-extension",
   "displayName": "SUS Extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Improve your cofounder match speed.",
   "author": "rusdyn",
   "scripts": {
